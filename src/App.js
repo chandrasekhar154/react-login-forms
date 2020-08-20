@@ -4,12 +4,14 @@ import './App.css';
 import './components/Header/Header';
 import Header from './components/Header/Header';
 import RegistrationForm from './components/RegistrationForm/RegistrationForm';
+import Login from './components/Login/Login';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <RegistrationForm />
+      {/* <RegistrationForm /> */}
+      <Login />
     </div>
   );
 }
